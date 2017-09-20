@@ -20,7 +20,16 @@ PullToRefresh.init({
   onRefresh: function(){ window.location.reload(); }
 });
 ```
+ 
 
+```
+PullToRefresh.init({
+  mainElement: 'body', // 想拖动（刷新）目标元素
+  onRefresh: function(){
+    window.location.reload(); // 刷新动作完后的会执行的回调函数
+  }
+});
+```
 API
 ---
 
