@@ -1,4 +1,4 @@
-/* eslint-disable import/no-unresolved */
+/* eslint-disable import/no-unresolved --*/
 
 import _ptrMarkup from './_markup.pug';
 import _ptrStyles from './_styles.less';
